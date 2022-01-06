@@ -2,7 +2,7 @@ const express = require('express')
 const path = require('path')
 const app = express()
 const PORT = process.env.PORT || 5000
-var router = express.Router();
+const router = express.Router();
 
 
 router.route('/2_5271552321199804659').get((req, res) => { res.sendFile(__dirname + '/2_5271552321199804659.pdf')})
